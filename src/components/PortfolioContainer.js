@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="d-flex flex-column h-100">
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 
