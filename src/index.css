@@ -1,13 +1,385 @@
-body {
+/* Here I create the variables that I will use in order to not repeat myself  */
+:root {
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --gray-light: #d6d6d6;
+  --primary: #920707;
+  --paddingLeftBody: 20px;
+  --paddingRightBody: 35px;
+  --font-family: "Roboto", sans-serif;
+}
+/* This select is used for apply the properties to all the page */
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family);
+}
+/* I use this to apply the follow properties to the body */
+body {
+  background-color: #f8fafc;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* I use this to apply the follow properties to the header */
+header {
+  padding: 20px;
+  background-color: var(--white);
+  color: var(--white);
+}
+
+/* I use this to apply the follow properties to a H1 that is inside of the header */
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: var(--primary);
+  padding-left: 80px;
+}
+
+/*This is to add an effect when the mouse is over the element */
+header h1:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+/* I use this to apply the follow properties to the Navbar that is inside of the header */
+header navbar {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
+}
+
+/* I use this to apply the follow properties to the list that is inside of the navbar that the parent is the header  */
+header navbar ul {
+  list-style-type: none;
+}
+
+/* I use this to apply the follow properties to the list items that is inside of the navbar that the parent is the header */
+header navbar ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* This is to set an effect when the mouse is over and what it does it change the  background to the primary color and the color of the text*/
+header navbar ul li a:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+/* I use this to apply the follow properties to footer */
+footer {
+  padding: 15px;
+  clear: both;
+  text-align: center;
+  background-color: var(--white);
+  color: var(--primary);
+}
+
+/* I use this to apply the font size to 20 for the footer footer */
+footer h2 {
+  font-size: 20px;
+}
+/* This is to set that the main tag will have a width of 100% so it will cover all the screen  */
+main {
+  width: 100%;
+}
+/* This class is to have a margin of 30px on the top in order to have some space between the menu and the body*/
+.row {
+  margin-top: 30px;
+}
+/* This is for the container element that display the elements as Flex the feeling that is a row with a width of 100%  */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+.linkClassNoBorder {
+  color: var(--primary);
+  padding: 5px;
+}
+/* This class is for all the links have the same format */
+.linkClass {
+  color: var(--primary);
+  padding: 5px;
+  text-decoration: none;
+  border-bottom: 3px solid var(--primary);
+  padding-left: 15px;
+}
+/* I use to change the border to unset  of the links when is the hover effect  */
+.linkClass:hover {
+  border: unset;
+}
+/* I use to change the color of the icons that I set on the Contact form  when the over */
+.Icon:hover {
+  color: var(--gray-dark);
+}
+
+/* set the flex to 20% so it creates the feeling that is inline  I use this for Work , Contact Me and Resume sections */
+.title {
+  flex: 0 0 20%;
+  align-items: flex-end;
+  text-align: end;
+  vertical-align: middle;
+  font-size: 45px;
+  border-right: 5px solid var(--primary);
+  color: var(--primary);
+  padding: 10px 15px 0 0;
+  order: 1;
+}
+
+/* set the flex to 80% so it creates the feeling that is inline */
+.content {
+  flex: 0 0 80%;
+  order: 2;
+}
+
+/* I use this to set the position to relative to the elemets of figure that are inside of a content class  */
+.content figure {
+  position: relative;
+}
+
+/* I use this class to set the width to 100% and add an opocity of 50% to the images that are inside of the figure */
+.content figure img {
+  width: 100%;
+  opacity: 0.5;
+}
+/*I use this to add an effect when the mouse is over the image and what it does is to delete the opacity and I add a transition this is on the gallery work */
+.content figure img:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+/* this is to create the style of flex 80% to the Ul elements that are inside of the content class */
+.content ul {
+  flex: 0 0 80%;
+  display: inline-flex;
+  list-style-type: none;
+  padding-top: 50px;
+}
+/* This code is to add some style to the li elements that are inside of the content class*/
+.content ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* I use this to add a padding to the gallery of work */
+.padding-gallery {
+  padding: 15px var(--paddingRightBody) 15px var(--paddingLeftBody);
+}
+/* The gallery of work need to be display flex in order to have the elements inside the container and wrap so dont print that outside the screen and creates an scroll X*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* This is for the image below od the main on the Work section, in order to have the width of 50% and can fit only two */
+.secondary_img {
+  width: 50%;
+}
+/* This is to create a element like a tag on the images that are on the section of Work  the position is aboslute so it can be displayed inside the image  */
+.padding-gallery figcaption {
+  position: absolute;
+  background-color: var(--gray-light);
+  color: var(--primary);
+  float: left;
+  max-width: 400px;
+  display: block;
+  bottom: 15%;
+  left: var(--paddingLeftBody);
+  font-size: 30px;
+  padding: 10px;
+}
+
+/* This class is created for the first section where is a photo and a description , this class creates the effect of that elements are center and inline */
+
+.contentAboutMe {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* With thi code I set the width of my photo*/
+.imageContent img {
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Thi is the container for my photo */
+.imageContent {
+  width: 400px;
+  height: 400px;
+}
+
+/* This is for the text that is under "Hi, Im German Ramirez" I set a width of 800px */
+.textContent {
+  width: 800px;
+}
+
+/* The header2 have a a margin on the bottom of 10px and line height of 60px and the color to primary variable this is where it the text "Hi , Im German Ramirez" */
+.textContent h2 {
+  font-size: 3rem;
+  margin: 0 0 10px 0;
+  line-height: 60px;
+  color: var(--primary);
+}
+/* The image that is on the section of Resume needs to be center of the section */
+.imgResume {
+  text-align: center;
+}
+
+/* I added that the text below of the QR have a font size of 30px*/
+.imgQR figcaption {
+  font-size: 30px;
+}
+
+/* I added an effect that the text below of the QR change the color and font size   */
+.imgQR:hover {
+  font-size: 25px;
+  color: var(--primary);
+}
+
+/* This is to set the width of the image to 50%  */
+
+.img50width {
+  width: 50% !important;
+}
+
+/* This class is used for the elements that need a width of 100%*/
+.width100 {
+  width: 100%;
+}
+
+/*This class I used to center any text that need to be centered */
+.text-center {
+  text-align: center;
+}
+
+/* set styles to make it so code wraps in <pre> instead of overflowing */
+.preStyle {
+  white-space: pre-line;
+  overflow: auto;
+  align-items: flex-start;
+  font-size: 18px;
+  padding: 15px var(--paddingRightBody) 15px var(--paddingLeftBody);
+}
+/* ----------   Media Queries Section ---------- */
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  /* Here I change the padding , width and z-index in order to have a better look on a tablet, What does is that the Title Portfolio is on the top and on the bottom the menu */
+  header {
+    padding-bottom: 10px;
+    width: 100%;
+    z-index: 20;
+  }
+  /* This is to set the Title Portfolio is on the top and on the bottom the menu */
+  header h1 {
+    display: block;
+    font-size: 38px;
+    color: var(--primary);
+    padding-left: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  /* This is to set the Title Portfolio is on the top and on the bottom the menu  and the menu is aligned to the center*/
+  header navbar {
+    padding-top: 0;
+    font-size: 20px;
+    padding-bottom: 10px;
+    float: none;
+    text-align: center;
+  }
+  /* I change the li to have a margin larger that on normar screens*/
+  header navbar ul li {
+    margin-left: 45px;
+  }
+  /* This code is to reduce the size of "Hi, Im German Ramirez" and I center the text */
+  .textContent h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  /* I add this in order to set properties to the fig caption that is under the padding-gallery class like a tag on the image I redece the  font size and the padding */
+  .padding-gallery figcaption {
+    font-size: 18px;
+    padding: 5px;
+  }
+  /* The title of Work, Contact Me and Resme , I reduce the font size so it can fit on the tablet screen*/
+  .title {
+    font-size: 30px;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  /* I redecue the font size of the menu so it can fit on this devices */
+  header navbar {
+    font-size: 14px;
+  }
+
+  /* I redecue the margin to the left of the menu so it can fit on this devices */
+  header navbar ul li {
+    margin-left: 5px;
+  }
+  /* The secondary image on smalled tables will have 100% so each project will be visible like the main project */
+  .secondary_img {
+    width: 100%;
+  }
+  /* I change the direction of the flex so now on smaller screens will be column instead of row */
+  .container {
+    flex-direction: column;
+  }
+  /* I set this in order that the image is on the top and the text below to that  */
+  .aboutMe_img {
+    width: 100%;
+    padding: 15px 15px 15px var(--paddingLeftBody);
+  }
+  /* set styles to make it the title go to the top of each section and have a border on the bottom */
+  .title {
+    align-items: flex-end;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 45px;
+    border-right: 0px;
+    border-bottom: 5px solid var(--primary);
+    padding: 10px;
+  }
+  /* I change the flex direction to column instead or row  */
+  .contentAboutMe {
+    flex-direction: column;
+  }
+  /* I change the width of the text description so it can fit on smaller devices  */
+  .textContent {
+    width: 350px;
+    padding-top: 30px;
+  }
+  /* I change the margin I add a padding on the botton and I change the line height in order to fit on smaller devices  */
+  .textContent h2 {
+    margin: 0 0 0px 0;
+    padding-left: var(--paddingLeftBody);
+    padding-bottom: 30px;
+    line-height: 10px;
+  }
+
+  /* This code is to reduce the size of "Hi, Im German Ramirez" and I center the text */
+  .textContent h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* This code is to reduce the size of the font awesome icons */
+  .Icon {
+    font-size: 9px;
+  }
+  /* This code is to reduce the size of the text below of the QR image*/
+  .imgQR figcaption {
+    font-size: 15px;
+  }
+  /*This is to set the width to 100% on small devices */
+  .contentAboutMe {
+    width: 100%;
+  }
+}
+.hidenElement {
+  display: none;
 }
