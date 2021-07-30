@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import NavBar from './Navbar';
-import Footer from './Footer';
+import Header from './Header/index';
+import Footer from './Footer/index';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Resume from './pages/Resume';
@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
 
   return (
     <div className="d-flex flex-column h-100">
-      <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
 
       <Footer/>
