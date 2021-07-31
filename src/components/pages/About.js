@@ -9,7 +9,7 @@ export default function About() {
                         <img src={process.env.PUBLIC_URL + '/assets/img/german_ramirez.jpg'} className="img-fluid rouded" alt="German Ramirez"/> 
                     </div>
                     <div className="col-8">
-                    <h1 className="mt-5 mb-5 textContentH2">Hi, Im German Ramirez</h1>
+                    <h1 className="mt-5 mb-5 textContentH2">Welcome, I'm German Ramirez</h1>
                         <p className="lead">
                         I'm 32 years old and Im living currently on Mexico City.
 
@@ -20,6 +20,9 @@ export default function About() {
                         Other thing that I like to do is to learn new languages of programming and thanks for that I'm able to work with PHP,
                         Java, React, and many others
                         </p>
+                    </div>
+                    <div className="col-12 pt-3 text-center" style={{alignSelf: "center"}}>                        
+                        <img src={process.env.PUBLIC_URL + '/assets/img/german_ramirez_qr.png'} className="img-fluid rouded w-25" alt="German Ramirez"/> 
                     </div>
                 </div>                
             </div>
