@@ -69,6 +69,8 @@ body > #root > div {
 .linkClassActive{
   border: unset!important;
   font-weight: bold;
+  color: var(--custom-primary)!important;
+  text-decoration: none!important;
 }
 /* I use to change the color of the icons that I set on the Contact form  when the over */
 .Icon:hover {
@@ -224,6 +226,13 @@ body > #root > div {
   padding: 15px var(--paddingRightBody) 15px var(--paddingLeftBody);
 }
 
+
+.textContentH4 {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  line-height: 60px;
+  color: var(--custom-primary)!important;
+}
 
 .textContentH2 {
     font-size: 3rem;
