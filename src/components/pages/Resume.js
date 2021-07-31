@@ -9,7 +9,7 @@ export default function About() {
                 <div className="row pt5">
                     <h1 className="textContentH2 text-center">Resume</h1>
                     <p className="text-center">
-                        <a className="linkClassActive"  href={process.env.PUBLIC_URL + '/assets/pdf/CV-GermanRamirezCastañon.pdf'} >
+                        <a className="linkClassActive"  href={process.env.PUBLIC_URL + '/assets/pdf/CV-German_Isaac_Ramirez.pdf'} >
                             Download my resume <FontAwesomeIcon icon={faFilePdf}  size="lg"/>
                         </a>
                     </p>                    
