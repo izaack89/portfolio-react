@@ -223,3 +223,11 @@ body > #root > div {
   font-size: 18px;
   padding: 15px var(--paddingRightBody) 15px var(--paddingLeftBody);
 }
+
+
+.textContentH2 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+    line-height: 60px;
+    color: var(--custom-primary)!important;
+}
