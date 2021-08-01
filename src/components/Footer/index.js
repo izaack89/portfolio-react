@@ -1,6 +1,7 @@
 import React from 'react';
+// Added fontawesome in order to user their icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelopeOpenText, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelopeOpenText, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer() {
   return (

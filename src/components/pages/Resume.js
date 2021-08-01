@@ -17,12 +17,12 @@ export default function About() {
                 <div className="row pt-1 pb-5">
                     <div className="col-6">
                         <h4 className="textContentH4">Back-End</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">PHP (Core, Laravel, Symphony, Smarty)</li>
-                            <li class="list-group-item">Java (Spring)</li>
-                            <li class="list-group-item">.Net</li>
-                            <li class="list-group-item">NodeJs</li>
-                            <li class="list-group-item">ApolloServer</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">PHP (Core, Laravel, Symphony, Smarty)</li>
+                            <li className="list-group-item">Java (Spring)</li>
+                            <li className="list-group-item">.Net</li>
+                            <li className="list-group-item">NodeJs</li>
+                            <li className="list-group-item">ApolloServer</li>
                         </ul>
                     </div>
                     <div className="col-6 text-center" style={{ alignSelf: "center" }}>
@@ -33,26 +33,26 @@ export default function About() {
                     </div>
                     <div className="col-6">
                         <h4 className="textContentH4">Front-End</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">HTML5</li>
-                            <li class="list-group-item">Css3</li>
-                            <li class="list-group-item">Bootstrap</li>
-                            <li class="list-group-item">Materialize</li>
-                            <li class="list-group-item">Javascript</li>
-                            <li class="list-group-item">React</li>
-                            <li class="list-group-item">Sequelize</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">HTML5</li>
+                            <li className="list-group-item">Css3</li>
+                            <li className="list-group-item">Bootstrap</li>
+                            <li className="list-group-item">Materialize</li>
+                            <li className="list-group-item">Javascript</li>
+                            <li className="list-group-item">React</li>
+                            <li className="list-group-item">Sequelize</li>
                         </ul>
                     </div>
                     <div className="col-6">
                         <h4 className="textContentH4">DB</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Mysql</li>
-                            <li class="list-group-item">SQL</li>
-                            <li class="list-group-item">PostgressSQL</li>
-                            <li class="list-group-item">MongoDB</li>
-                            <li class="list-group-item">Oracle</li>
-                            <li class="list-group-item">Firebase</li>
-                            <li class="list-group-item">IndexDB</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">Mysql</li>
+                            <li className="list-group-item">SQL</li>
+                            <li className="list-group-item">PostgressSQL</li>
+                            <li className="list-group-item">MongoDB</li>
+                            <li className="list-group-item">Oracle</li>
+                            <li className="list-group-item">Firebase</li>
+                            <li className="list-group-item">IndexDB</li>
                         </ul>
                     </div>
                     <div className="col-6 text-center" style={{ alignSelf: "center" }}>
@@ -63,21 +63,21 @@ export default function About() {
                     </div>
                     <div className="col-6">
                         <h4 className="textContentH4">Version Control</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">CVS</li>
-                            <li class="list-group-item">SVN</li>
-                            <li class="list-group-item">GitHub</li>
-                            <li class="list-group-item">GitLab</li>
-                            <li class="list-group-item">Bitbucket</li>
-                            <li class="list-group-item">Docker</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">CVS</li>
+                            <li className="list-group-item">SVN</li>
+                            <li className="list-group-item">GitHub</li>
+                            <li className="list-group-item">GitLab</li>
+                            <li className="list-group-item">Bitbucket</li>
+                            <li className="list-group-item">Docker</li>
                         </ul>
                     </div>
                     <div className="col-6">
                         <h4 className="textContentH4">Testing</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Jest</li>
-                            <li class="list-group-item">Selenium Laravel</li>
-                            <li class="list-group-item">React Testing (react-dom)</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">Jest</li>
+                            <li className="list-group-item">Selenium Laravel</li>
+                            <li className="list-group-item">React Testing (react-dom)</li>
                         </ul>
                     </div>
                     <div className="col-6 text-center" style={{ alignSelf: "center" }}>
@@ -88,16 +88,16 @@ export default function About() {
                     </div>
                     <div className="col-6">
                         <h4 className="textContentH4">Other</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Linux Server</li>
-                            <li class="list-group-item">Windows Server</li>
-                            <li class="list-group-item">AWS (EC2, S3, ElasticBean, Route53 )</li>
-                            <li class="list-group-item">Tableau Server</li>
-                            <li class="list-group-item">Tableau Dashboards</li>
-                            <li class="list-group-item">GraphQL</li>
-                            <li class="list-group-item">Webpackage</li>
-                            <li class="list-group-item">ServiceProvider</li>
-                            <li class="list-group-item">API's (docuSign, Twillio, Zillow, many others)</li>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item">Linux Server</li>
+                            <li className="list-group-item">Windows Server</li>
+                            <li className="list-group-item">AWS (EC2, S3, ElasticBean, Route53 )</li>
+                            <li className="list-group-item">Tableau Server</li>
+                            <li className="list-group-item">Tableau Dashboards</li>
+                            <li className="list-group-item">GraphQL</li>
+                            <li className="list-group-item">Webpackage</li>
+                            <li className="list-group-item">ServiceProvider</li>
+                            <li className="list-group-item">API's (docuSign, Twillio, Zillow, many others)</li>
                         </ul>
                     </div>
                 </div>
