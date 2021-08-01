@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# Hi, I'm German Ramirez
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I'm German from Mexico, and I'm a Software Developer. I really enjoy learning languages and frameworks like Laravel, React and VueJS, as well as work in environment like Linux and Windows. I also enjoy working with Databases like Mysql, Postgress, MongoDB, Oracle and SQL Server.
 
-## Available Scripts
+## Skills and Experience
 
-In the project directory, you can run:
+- PHP
+  - LARAVEL
+  - ZEND
+  - SYMFONY2
+  - JOOMLA
+  - WORDPRESS
+- JAVA
+- TABLEAU
+- JAVASCRIPT
+  - AJAX
+  - JQUERY
+  - ANGULAR
+  - NODEJS
+  - VUEJS
+  - REACT
+  - SEQUELIZE
+  - HANDLEBARS
+  - NODE
+- WEB DESIGN
+  - HTML5
+  - CSS3
+  - BOOTSTRAPT
+  - MATERIALIZE
+  - Flex
+- DB
+  - SQL SERVER
+  - MYSQL
+  - FIREBASE
+  - POSTGRESS
+  - MONGODB
+  - REDIS
+- Servers
+  - Linux
+  - Windows
+  - AWS
+- Version Control
+  - CVS
+  - SVN
+  - GIT
+  - GITLAB
+  - Bitbucket
 
-### `yarn start`
+## Work Examples
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **PHP**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  - #### PropAnalysis System
 
-### `yarn test`
+![PHP Portal](./public/assets/img/PropAnalysis.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- #### Tempus Portal System
 
-### `yarn build`
+![PHP Portal](./public/assets/img/TempusPortal.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+On this programming language I have created full systems such as this example that is a "Property Analysis System" where the agent can enter an do an analysis of a property in order to have an idea about REHAB , OFFER , MAX OFFER , RENT/SALES COMPS. On the system "Tempus" is a portal for Investors where they aply to a Fund and the Fund Admin can obtain all the information necessary and notice the Investor if is approved or not.Using AJAX for Async data connection , API call to Docusign or Signow for documents sign and Mysql as main Database. Both Systems are protected with login system
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- #### Ajax Backend Script
+  ![PHP Ajax](./public/assets/img/backendAjax.gif)
+- #### PDF Export FPDF export
+  ![PHP Scripts](./public/assets/img/pdfExportPhp.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Also I have created script on PHP for print PDF, Excel , Word document that obtain the information from the DB. Another type of scripts are the ones that use API or SDK to connect with external system and retrieve data from them. Some API are I have been working are Zillow, Routetify, Quickbooks, Clio, Google, Facebook, among others
 
-### `yarn eject`
+- **MYSQl**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![DB Schema](./public/assets/img/dbSchemas.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here I can show one of many schemas that I have creted on the past , with this I want to show that I know how to create relations between tables and also I can built for robust systems such as this example that represent a system for audits
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Repositorie Examples
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Sport Almanac Repo](https://github.com/adina-hc/sports-almanac) |
+[Sport Almanac Live](https://adina-hc.github.io/sports-almanac/)  
+![Sport Almanac](./public/assets/img/sportAlmanac.gif)
+[Code BaseRepo](https://github.com/izaack89/code-base) |
+[Code Base Live](https://izaack89.github.io/code-base/)
+![Code Base](./public/assets/img/codeBase.gif)
+[Day Planner Repo](https://github.com/izaack89/day-planner) |
+[Day Planner Live](https://izaack89.github.io/day-planner/)
+![Day Planner](./public/assets/img/dayPlanner.gif)
+[Weather Dashboard Repo](https://github.com/izaack89/weather-dashboard) |
+[Weather Dashboard Live](https://izaack89.github.io/weather-dashboard/)
+![Weather Dashboard](./public/assets/img/dashboardWeather.gif)
+[School System Repo](https://github.com/izaack89/school-system) |
+[School System Live](https://infinite-chamber-84516.herokuapp.com/)
+![School System](./public/assets/img/schoolSystem.gif)
+[Tech Blog Repo](https://github.com/izaack89/tech-blog) |
+[Tech Blog Live](https://floating-garden-59968.herokuapp.com/login)
+![Tech Blog](./public/assets/img/systemView.gif)
 
-## Learn More
+## Portfolio Built With
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Font Awesome](https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react) - Vector icons and social logos
+- [Favico Generator](https://www.favicon-generator.org/) - Roboto font
+- For More Info please visit the follow links [GitHub Portfolio](https://github.com/izaack89/portfolio) - [Portfolio Site](https://izaack89.github.io/portfolio/)
+- [Data Load](https://www.pluralsight.com/guides/load-and-render-json-data-into-react-components) - Data Load
+- [Axios & PHP](https://blog.bitsrc.io/how-to-build-a-contact-form-with-react-js-and-php-d5977c17fec0) - Use Axios and PHP to send emails
+- [Buttons Disable](https://stackoverflow.com/questions/41488715/how-to-disable-button-in-react-js) - Disable Buttons
+- [SVG Images](https://undraw.co/search) - SVG Images
+- [Bootstrap](https://getbootstrap.com/docs/5.0/) - Bootsrap Documentation
+- [Navbar React](https://stackoverflow.com/questions/66217242/collapsed-navbar-not-working-react-and-bootstrap-5) Navbar issues with React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![PHP Ajax](./public/assets/img/portfolioIMG.png)
 
-### Code Splitting
+## [Portfolio GitHub Code](https://github.com/izaack89/portfolio-react/settings/pages)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## [Portfolio Live](https://izaack89.github.io/portfolio-react/)
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **German Ramirez** - [GitHub](https://github.com/izaack89/)
+- **German Ramirez CV** - [CV](https://izaack89.github.io/portfolio-react/assets/pdf/CV-German_Isaac_Ramirez.pdf)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![GitHub license](https://img.shields.io/badge/Licenses-MIT-blue.svg)
