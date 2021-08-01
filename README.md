@@ -106,7 +106,7 @@ Here I can show one of many schemas that I have creted on the past , with this I
 - [Bootstrap](https://getbootstrap.com/docs/5.0/) - Bootsrap Documentation
 - [Navbar React](https://stackoverflow.com/questions/66217242/collapsed-navbar-not-working-react-and-bootstrap-5) Navbar issues with React
 
-![PHP Ajax](./public/assets/img/portfolioIMG.png)
+![PHP Ajax](./public/assets/img/portfolio.gif)
 
 ## [Portfolio GitHub Code](https://github.com/izaack89/portfolio-react/settings/pages)
 
